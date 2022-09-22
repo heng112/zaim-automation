@@ -1,5 +1,10 @@
-const CONSUMER_KEY = new config().customerKey();
-const CONSUMER_SECRET = new config().customerSecret();
+// const a = new config().customerKey();
+// const CONSUMER_KEY = new config().customerKey();
+// const CONSUMER_SECRET = new config().customerSecret();
+function test (){
+  const a = new config().customerKey();
+  Logger.log(a);
+}
 /**
  * Authorizes and makes a request to the Zaim API.
  */
